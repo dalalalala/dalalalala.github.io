@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jingtao Zhang</title>
+  <meta name="description" content="Jingtao Zhang — Ph.D. researcher in simulation, global sensitivity analysis, and stochastic metamodeling." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root{ --text:#1b1f24; --muted:#5b6776; --bg:#fff; --link:#2867c6; --border:#e6eaf0; --radius:12px; }
+    *{ box-sizing:border-box }
+    body{ margin:0; background:var(--bg); color:var(--text); font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; }
+    a{ color:var(--link); text-decoration:none }
+    a:hover{ text-decoration:underline }
+    .wrap{ width:min(900px,92vw); margin:0 auto; padding:28px 0 64px }
+
+    /* Header */
+    header{ padding:32px 0 12px; border-bottom:1px solid var(--border) }
+    .name{ font-family:Merriweather, Georgia, serif; font-size:32px; font-weight:700; margin:0 0 6px }
+    .tag{ color:var(--muted); margin:0; font-size:15px }
+
+    /* Nav */
+    .nav{ display:flex; gap:18px; flex-wrap:wrap; padding:12px 0 }
+    .nav a{ color:var(--text); padding:6px 10px; border-radius:8px }
+    .nav a:hover{ background:#f6f8fb }
+
+    /* Sections */
+    section{ padding:26px 0 }
+    h2{ font-family:Merriweather, Georgia, serif; font-size:22px; margin:0 0 12px }
+    p{ line-height:1.7; margin:10px 0 }
+    .grid{ display:grid; grid-template-columns: 1fr 1fr; gap:18px }
+    .card{ border:1px solid var(--border); border-radius:var(--radius); padding:16px; background:#fff }
+    .muted{ color:var(--muted) }
+    ul{ margin:8px 0 0 20px }
+    li{ margin:6px 0; }
+    .photo{ width:200px; height:200px; border-radius:50%; object-fit:cover; margin:0 0 20px 0; border:3px solid var(--border); display:block; }
+    @media (max-width: 760px){ .photo{ width:150px; height:150px; } }
+
+    /* Footer */
+    footer{ margin-top:32px; padding-top:16px; border-top:1px solid var(--border); color:var(--muted); font-size:14px }
+
+    @media (max-width: 760px){ .grid{ grid-template-columns: 1fr } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1 class="name">Jingtao Zhang</h1>
+      <!-- <p class="tag">PhD Operations Research, Research Scientist at Amazon</p> -->
+      <nav class="nav">
+        <a href="#about">Home</a>
+        <a href="#research">Research</a>
+        <a href="#awards">Awards</a>
+        <a href="#contact">Contact</a>
+        <a href="assets/CV.pdf" target="_blank" rel="noopener">CV</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about">
+        <div class="card">
+          <img src="assets/photo.jpg" alt="Jingtao Zhang" class="photo">
+          <h2>About</h2>
+          <p>I'm a research scientist at Amazon SCOT, working on reinforcement learning for supply chain optimization. Before joining Amazon, I was a PhD student in the Grado Department of Industrial and Systems Engineering at Virginia Tech, where I was advised by <a href="https://sites.google.com/vt.edu/xi-chen-ise/home" target="_blank" rel="noopener">Dr. Xi Chen</a>. Previously, I obtained a B.E. in Industrial Engineering from Dalian Maritime University and an M.S. in Industrial Engineering from Shanghai Jingtao University.</p>
+            
+          <p>My research focused on simulation, global sensitivity analysis, and stochastic metamodeling for data‑driven decision making.</p>
+        </div>
+      </section>
+
+      <section id="news">
+        <div class="card">
+          <h2>News</h2>
+          <ul>
+            <li>July 2025: Starting as Research Scientist at Amazon SCOT.</li>
+          </ul>
+        </div>
+      </section>
+
+   
+
+      <section id="research">
+        <h2>Research</h2>
+        <div class="card">
+          <ol>
+            <li><strong>Zhang, J.</strong>, & Chen, X. (2025). Multilevel Monte Carlo Metamodeling for Variance Function Estimation. <em>SIAM/ASA Journal on Uncertainty Quantification</em>, 13(3), 980–1027.</li>
+            <li>Chen, X., Zhang, Y., Xie, G., & <strong>Zhang, J.</strong> (2024). A Uniform Error Bound for Stochastic Kriging: Properties and Implications on Simulation Experimental Design. <em>ACM Transactions on Modeling and Computer Simulation</em>, 35(1), 1–43.</li>
+            <li><strong>Zhang, J.</strong>, Chen, X., & Wang, R. (2023). Asymptotic Normality of Joint Metamodel-Based Sobol'Index Estimators. <em>2023 Winter Simulation Conference (WSC)</em>, 3705–3716.</li>
+          </ol>
+        </div>
+      </section>
+
+
+      <section id="awards">
+        <h2>Honors & Awards</h2>
+          <div class="card">
+            <ul>
+              <li>Graduate Fellowship, Virginia Tech (2021).</li>
+              <li>First‑Class Academic Scholarship, Shanghai Jingtao University (2017–2020).</li>
+              <li>Outstanding Graduate, Shanghai Jingtao University (2019).</li>
+              <li>National Merit Scholarship of China, Dalian Maritime University (2014–2017).</li>
+            </ul>
+          </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <div class="card">
+          <p><strong>Email:</strong> <a href="mailto:zhangjingtao1101@gmail.com">zhangjingtao1101@gmail.com</a></p>
+          <p><strong>Profiles:</strong> <a href="https://scholar.google.com/citations?user=35slgJ4AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a> · <a href="https://www.linkedin.com/in/jingtao-zhang-1994b8265/" target="_blank" rel="noopener">LinkedIn</a></p>
+        </div>
+      </section>
+
+      <footer>
+        <p>© <span id="year"></span> Jingtao Zhang · Built with plain HTML/CSS · GitHub Pages.</p>
+      </footer>
+    </main>
+  </div>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
